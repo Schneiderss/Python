@@ -1,0 +1,6 @@
+n = str(input('Digite uma frase: '))
+k = n.lower()
+l = k.strip()
+print('Número de vezes que aparece a letra A: ',l.count('a'))
+print('Posição do primeiro A: ',l.find('a'))
+print('Posição do último A: ',l.rfind('a'))
